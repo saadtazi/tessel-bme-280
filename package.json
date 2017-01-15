@@ -1,0 +1,39 @@
+{
+  "name": "tessel-bme-280",
+  "version": "0.1.0",
+  "description": "control bme280 sensor (barometric pressure, temperature and humidity) from your tessel",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadtazi/tessel-bme-280.git"
+  },
+  "keywords": [
+    "tessel",
+    "tessel 2",
+    "bme280",
+    "Single-Board Computer",
+    "SBC",
+    "pressure",
+    "temperature",
+    "humidity"
+  ],
+  "author": "Saad Tazi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saadtazi/tessel-bme-280/issues"
+  },
+  "homepage": "https://github.com/saadtazi/tessel-bme-280#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0",
+    "tessel": "^0.3.25"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
